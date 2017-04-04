@@ -9,9 +9,18 @@
 </head>
 <body>
   <form action="">
-    <input type="text"><br>
-    <input type="text"><br>
-    <input type="submit">
+    <h1>Bienvenida!</h1>
+    <div id="area-post">
+      <input type="text" placeholder="Coder">
+      <input type="password" placeholder="Password">
+      <input type="button" id="boton" value="Ingresar">
+    </div>
   </form>
+  <script>
+    var boton = document.getElementById('boton');
+    boton.onclick = function(){
+      window.location = "post.html"
+    }
+  </script>
 </body>
 </html>
