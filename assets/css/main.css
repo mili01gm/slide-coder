@@ -53,5 +53,6 @@ textarea {
 }
 
 .publicados {
-
+  border: 1px dashed;
+  margin: auto 100px;
 }
